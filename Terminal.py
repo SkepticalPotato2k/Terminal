@@ -38,7 +38,7 @@ if platform.system() == 'Windows':
     
 # Usage:
 
-system(CLEAR_SCREEN) # This works on both windows and linux :D
+os.system(CLEAR_SCREEN) # This works on both windows and linux :D
 
 
 print("Terminal v0.1 By SkepticalPotato2k And LukasDoesDev")
